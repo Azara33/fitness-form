@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(wall_board_lights_black_background_4k_hd_black_background\ 2.jpg); /* Replace 'background-image.jpg' with your image file path */
+    background-repeat: no-repeat;
+    
+    background-size:cover;  /* Scales the image to fit the container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    width: 95%;
+    height: 100%; /* Adjust height as needed */
+    background-color: #292929;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background: #ffffff;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    border-top-left-radius: 0px; /* Top-left corner */
+    border-top-right-radius: 10px; /* Top-right corner */
+    border-bottom-right-radius: 10px; /* Bottom-right corner */
+    border-bottom-left-radius: 0px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555555a6;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: calc(100% - 20px);
+    background-color: #ffffff38;
+    padding: 10px;
+    border-color: #a1a1a1;
+    margin-bottom: 15px;
+    border: 1px solid #a7a7a786;
+    font-size: 16px;
+    border-style: solid;
+    outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  border: none;
+  border-bottom: 2px solid #cccccc10;
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+  border-bottom-color: #8f8f8f;
+}
+
+input[type="submit"] {
+    background-color: #8026d4;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s
+}
+
+input[type="text"]:focus
+input[type="email"]:focus
+textarea:focus {
+    border-bottom-color: #8026d4 ;
+}
+
+input[type="submit"]:hover {
+    background-color: #45c7fa;
+    letter-spacing: 0.05em
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0 0 25px #32fff5;
+}
+
+input[type="submit"]:active {
+    background-color: #8026d4;
+}
+
+.message {
+    background-color: #ffffff;
+    color: #8026d4;
+    border: 1px solid #d6e9c6;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+.highlight {
+    color: #f50000d2;
+}
+
+.highlight {
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.FORMIMG {
+    size: 50%; 
+}
+
+.form-img {
+    width: 300px ;
+    height: 469px;
+    background-size: contain;
+    border-top-left-radius: 10px; /* Top-left corner */
+    border-top-right-radius: 0px; /* Top-right corner */
+    border-bottom-right-radius: 0px; /* Bottom-right corner */
+    border-bottom-left-radius: 10px;
+
+}
+
+@media only screen and (max-width: 650px) {
+    .form-img {
+        display: none;
+        transition: opacity 0.5s ease-out;
+    }
+
+    form {
+        background-image: url("man_gym.jpg");
+        background-size: contain;
+        padding-right: 45px;
+    }
+
+    h2 {
+        color: #d6e9c6;
+    }
+
+    label {
+        color: #d6e9c6;
+    }
+
+    form {
+        max-width: 270px;
+        object-position: center;
+    }
+}
